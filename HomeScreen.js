@@ -14,12 +14,12 @@ function HomeScreen() {
         <Button
           title="Logout"
           onPress={() => setUser(null)}
-          color="#FF6347" // Tomato color
+          color="#FF6347" 
         />
         <Button
           title="Set User"
-          onPress={() => setUser({ name: 'Mathesh' })}
-          color="#4682B4" // SteelBlue color
+          onPress={() => setUser({ name: 'Mathesh Y' })}
+          color="#4682B4" 
         />
       </View>
     </View>
